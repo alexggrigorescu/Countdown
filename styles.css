@@ -13,8 +13,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 0;
-  color: white;
+  margin: auto 10rem;
+  color: rgb(240, 240, 240);
+  float: left;
+  text-shadow: 0 0 15px rgb(240, 148, 148), 0 0 10px rgb(0, 0, 0),
+    0 0 15px #000000, 0 0 20px #000000;
 }
 
 .countdown-container {
@@ -33,10 +36,17 @@ h2 {
 
 .element-text {
   font-size: 4rem;
-  margin: 0 2rem;
+  margin: auto 2rem;
 }
 
 span {
   font-size: 1rem;
   font-weight: bold;
+}
+
+.days-element,
+.hours-element,
+.minutes-element,
+.seconds-element {
+  width: 11em;
 }
